@@ -115,32 +115,27 @@ Student newStudent;
 
         bool valid = true;
 
-        for (char c : newStudent.name)
-
+        for (int i = 0; newStudent.name[i] != '\0'; i++)
         {
+            char c = newStudent.name[i];
 
             if (c != ' ')
-
             {
-
                 if (!inWord)
-
                 {
-
                     wordCount++;
-
                     inWord = true;
-
                 }
-
+            }
+            else
+            {
+                inWord = false;
             }
 
-            else inWord = false;
-
             if (!isalpha(c) && c != ' ')
-
+            {
                 valid = false;
-
+            }
         }
 
         if (wordCount == 2 && valid) break;
@@ -312,6 +307,7 @@ void ListAllStudents(vector<Student>& students)
         cout << "GPA: " << students[i].GPA << endl;
         cout << "Student ID: " << students[i].ID << endl;
     }
+    MainMenu();
 }
 
 void PrintStudentBox(const Student& s)
@@ -375,7 +371,7 @@ case 2: // Search by Name
     cout << "Enter student name: ";
     getline(cin, name);
 
-    // 🔥 manually lowercase input
+
     for (int i = 0; i < name.length(); i++)
     {
         if (name[i] >= 'A' && name[i] <= 'Z')
@@ -388,7 +384,6 @@ case 2: // Search by Name
     {
         string temp = students[i].name;
 
-        // 🔥 manually lowercase stored name
         for (int j = 0; j < temp.length(); j++)
         {
             if (temp[j] >= 'A' && temp[j] <= 'Z')
@@ -429,9 +424,9 @@ case 2: // Search by Name
     break;
 }
 
-    case 3: // Search by National ID
+    case 3: 
     {
-        cin.ignore(); // clear buffer
+        cin.ignore(); 
         string nid;
 
         cout << "Enter National ID: ";
@@ -535,7 +530,6 @@ int MainMenu()
 
 int main()
 {
-
     loadFromFile(students);  
     MainMenu();
     return 0;
