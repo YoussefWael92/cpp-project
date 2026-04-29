@@ -2,6 +2,7 @@
 #include <vector>
 #include <cstring>
 #include <ctime>
+#include <string>
 #include <fstream>
 
 using namespace std;
@@ -10,12 +11,12 @@ int MainMenu();
 
 struct Student
 {
-    char name[50];
-    char nationalID[15];
+    string name;
+    string nationalID;
     char gender;
     char DOB[11];
-    char phone[12];
-    char program[10];
+    string phone;
+    string program;
     int level;
     float GPA;
     int ID;
@@ -25,18 +26,24 @@ vector<Student> students;
 
 bool isValid(char DOB[])
 {
-    return (DOB[2] == '/' && DOB[5] == '/' &&
+    return (DOB[2]=='/' && DOB[5]=='/' &&
 
-        DOB[0] >= '0' && DOB[0] <= '3' &&
-        DOB[1] >= '0' && DOB[1] <= '9' &&
+            DOB[0]>='0' && DOB[0]<='3' &&
+		
+            DOB[1]>='0' && DOB[1]<='9' &&
 
-        DOB[3] >= '0' && DOB[3] <= '1' &&
-        DOB[4] >= '0' && DOB[4] <= '9' &&
+            DOB[3]>='0' && DOB[3]<='1' &&
 
-        DOB[6] >= '1' && DOB[6] <= '2' &&
-        DOB[7] >= '0' && DOB[7] <= '9' &&
-        DOB[8] >= '0' && DOB[8] <= '9' &&
-        DOB[9] >= '0' && DOB[9] <= '9');
+            DOB[4]>='0' && DOB[4]<='9' &&
+
+            DOB[6]>='1' && DOB[6]<='2' &&
+
+            DOB[7]>='0' && DOB[7]<='9' &&
+
+            DOB[8]>='0' && DOB[8]<='9' &&
+
+            DOB[9]>='0' && DOB[9]<='9');
+
 }
 
 
@@ -63,98 +70,100 @@ void saveToFile(vector<Student>& students)
 void loadFromFile(vector<Student>& students)
 {
     ifstream file("students.csv");
-
-    if (!file) return; // file doesn't exist yet
+    if (!file) return;
 
     Student s;
 
-    while (file.getline(s.name, 50, ',') &&
-
-       file.getline(s.nationalID, 15, ',') &&
-
-       file >> s.gender &&
-
-       file.ignore() &&
-
-       file.getline(s.DOB, 11, ',') &&
-
-       file.getline(s.phone, 12, ',') &&
-
-       file.getline(s.program, 10, ',') &&
-
-       file >> s.level &&
-
-       file.ignore() &&
-
-       file >> s.GPA &&
-
-       file.ignore() &&      
-
-       file >> s.ID)
+    while (getline(file, s.name, ',') &&
+           getline(file, s.nationalID, ',') &&
+           file >> s.gender &&
+           file.ignore() &&
+           file.getline(s.DOB, 11, ',') &&
+           getline(file, s.phone, ',') &&
+           getline(file, s.program, ',') &&
+           file >> s.level &&
+           file.ignore() &&
+           file >> s.GPA &&
+           file.ignore() &&
+           file >> s.ID)
     {
-        file.ignore(); 
+        file.ignore();
         students.push_back(s);
     }
-
     file.close();
 }
 
 void Newstudent(vector<Student>& students)
 {
-    Student newStudent;
+Student newStudent;
+
+    cin.ignore();
+
+    // Name
 
     while (true)
+
     {
+
         cout << "Enter Student Name: ";
-        cin.ignore();
-        cin.getline(newStudent.name, 50);
+
+        getline(cin, newStudent.name);
 
         int wordCount = 0;
+
         bool inWord = false;
+
         bool valid = true;
 
-        for (int i = 0; newStudent.name[i] != '\0'; i++)
- {
+        for (char c : newStudent.name)
 
-            if (newStudent.name[i] != ' ' && newStudent.name[i] != '\t' && newStudent.name[i] != '\n')
+        {
+
+            if (c != ' ')
+
             {
+
                 if (!inWord)
+
                 {
+
                     wordCount++;
+
                     inWord = true;
+
                 }
-            }
-            else 
-            {
-                inWord = false;
+
             }
 
-            if (!((newStudent.name[i] >= 'a' && newStudent.name[i] <= 'z') || (newStudent.name[i] >= 'A' && newStudent.name[i] <= 'Z') || newStudent.name[i] == ' ')) 
-            {
+            else inWord = false;
+
+            if (!isalpha(c) && c != ' ')
+
                 valid = false;
-            }
-        }
-
-        if (wordCount == 2 && valid) 
-        {
-            break;
-        }
-        else
-        {
-            cout << "Enter only 2 names (first and last)\n";
-        }
 
         }
 
-        cout << "Enter National ID: ";
-        cin.getline(newStudent.nationalID, 15);
+        if (wordCount == 2 && valid) break;
 
-        while (strlen(newStudent.nationalID) != 14 || newStudent.nationalID[0] == '0')
-        {
-            cout << "Invalid input. Must be 14 digits and no leading zero.\n";
-            cout << "Enter National ID: ";
-            cin.getline(newStudent.nationalID, 15);
-        }
+        cout << "Enter only 2 names (first and last)\n";
+
+    }
+
+    // National ID
+
+    cout << "Enter National ID: ";
+
+    getline(cin, newStudent.nationalID);
+
+    while (newStudent.nationalID.length() != 14 || newStudent.nationalID[0] == '0')
+
+    {
+
+        cout << "Invalid input. Enter again: ";
+
+        getline(cin, newStudent.nationalID);
+
+    }
 
         newStudent.gender = 'x';
 
@@ -203,36 +212,49 @@ void Newstudent(vector<Student>& students)
 
             age = currentYear - birthYear;
 
-            if (!isValid(newStudent.DOB) || age < 17)
+            if (!isValid(newStudent.DOB) || (newStudent.DOB[3] == '1' && newStudent.DOB[4] > '2') || 
+               (newStudent.DOB[0] == '3' && newStudent.DOB[1] > '1') || (newStudent.DOB[3] == '0' && newStudent.DOB[4] == '2' && (newStudent.DOB[0] > '2' || 
+               (newStudent.DOB[0] == '2' && newStudent.DOB[1] > '8'))) || age < 17)
+               
             {
                 cout << "Invalid DOB or age must be at least 17.\n";
             }
 
         } while (!isValid(newStudent.DOB) || age < 17);
 
-        cout << "Enter Phone Number (11 digits starting with 01): ";
-        cin.getline(newStudent.phone, 12);
+        cout << "Enter Phone Number: ";
 
-        while (!(strlen(newStudent.phone) == 11 &&
-            newStudent.phone[0] == '0' &&
-            newStudent.phone[1] == '1'))
-        {
-            cout << "Invalid phone number.\n";
-            cout << "Enter Phone Number: ";
-            cin.getline(newStudent.phone, 12);
-        }
+getline(cin, newStudent.phone);
 
-        cout << "Enter Program (CSE / CCE / MCT): ";
-        cin.getline(newStudent.program, 10);
+    while (newStudent.phone.length() != 11 ||
 
-        while (strcmp(newStudent.program, "CSE") &&
-            strcmp(newStudent.program, "CCE") &&
-            strcmp(newStudent.program, "MCT"))
-        {
-            cout << "Invalid input.\n";
-            cout << "Enter Program (CSE / CCE / MCT): ";
-            cin.getline(newStudent.program, 10);
-        }
+           newStudent.phone.substr(0,2) != "01")
+
+    {
+
+        cout << "Invalid phone. Enter again: ";
+
+        getline(cin, newStudent.phone);
+
+    }
+
+    cout << "Enter Program (CSE / CCE / MCT): ";
+
+    getline(cin, newStudent.program);
+
+    while (newStudent.program != "CSE" &&
+
+           newStudent.program != "CCE" &&
+
+           newStudent.program != "MCT")
+
+    {
+
+        cout << "Invalid. Enter again: ";
+
+        getline(cin, newStudent.program);
+
+    }
 
         cout << "Enter Academic Level (1 - 4): ";
         cin >> newStudent.level;
@@ -344,56 +366,82 @@ void SearchStudents(vector<Student>& students)
         break;
     }
 
-    case 2: // Search by Name
+case 2: // Search by Name
+{
+    cin.ignore();
+
+    string name;
+
+    cout << "Enter student name: ";
+    getline(cin, name);
+
+    // 🔥 manually lowercase input
+    for (int i = 0; i < name.length(); i++)
     {
-        cin.ignore();
-        char name[50];
+        if (name[i] >= 'A' && name[i] <= 'Z')
+            name[i] = name[i] + 32;
+    }
 
-        cout << "Enter student name: ";
-        cin.getline(name, 50);
+    int count = 0;
 
-        int count = 0;
+    for (int i = 0; i < students.size(); i++)
+    {
+        string temp = students[i].name;
 
-        // count first
+        // 🔥 manually lowercase stored name
+        for (int j = 0; j < temp.length(); j++)
+        {
+            if (temp[j] >= 'A' && temp[j] <= 'Z')
+                temp[j] = temp[j] + 32;
+        }
+
+        if (temp == name)
+        {
+            count++;
+        }
+    }
+
+    if (count == 0)
+    {
+        cout << "No students found with this name.\n";
+    }
+    else
+    {
+        cout << "\nFound " << count << " student(s):\n";
+
         for (int i = 0; i < students.size(); i++)
         {
-            if (strcmp(students[i].name, name) == 0)
-                count++;
-        }
+            string temp = students[i].name;
 
-        if (count == 0)
-        {
-            cout << "No students found with this name.\n";
-        }
-        else
-        {
-            cout << "\nFound " << count << " student(s):\n";
-
-            for (int i = 0; i < students.size(); i++)
+            for (int j = 0; j < temp.length(); j++)
             {
-                if (strcmp(students[i].name, name) == 0)
-                {
-                    PrintStudentBox(students[i]);
-                }
+                if (temp[j] >= 'A' && temp[j] <= 'Z')
+                    temp[j] = temp[j] + 32;
+            }
+
+            if (temp == name)
+            {
+                PrintStudentBox(students[i]);
             }
         }
-
-        break;
     }
+
+    break;
+}
 
     case 3: // Search by National ID
     {
-        cin.ignore();
-        char nid[15];
+        cin.ignore(); // clear buffer
+        string nid;
 
         cout << "Enter National ID: ";
-        cin.getline(nid, 15);
+        getline(cin, nid);
 
         bool found = false;
 
         for (int i = 0; i < students.size(); i++)
         {
-            if (strcmp(students[i].nationalID, nid) == 0)
+            if (students[i].nationalID == nid)
             {
                 PrintStudentBox(students[i]);
                 found = true;
