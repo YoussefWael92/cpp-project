@@ -1,0 +1,2 @@
+set(__QT_DEPLOY_TARGET_StudentSystem_QtGUI_FILE /Users/youssefwaelibrahim92gmail.com/Desktop/StudentSystem_QtGUI_VALIDATIONS/build/Qt_6_11_0_for_macOS-Debug/StudentSystem_QtGUI)
+set(__QT_DEPLOY_TARGET_StudentSystem_QtGUI_TYPE EXECUTABLE)
