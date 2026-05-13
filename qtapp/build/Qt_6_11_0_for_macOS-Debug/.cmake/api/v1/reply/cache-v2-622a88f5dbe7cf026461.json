@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/Users/youssefwaelibrahim92gmail.com/Desktop/StudentSystem_QtGUI_VALIDATIONS/build/Qt_6_11_0_for_macOS-Debug"
+			"value" : "/Users/youssefwaelibrahim92gmail.com/Desktop/cpp project/qtapp/build/Qt_6_11_0_for_macOS-Debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -435,7 +435,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/youssefwaelibrahim92gmail.com/Desktop/StudentSystem_QtGUI_VALIDATIONS/build/Qt_6_11_0_for_macOS-Debug/CMakeFiles/pkgRedirects"
+			"value" : "/Users/youssefwaelibrahim92gmail.com/Desktop/cpp project/qtapp/build/Qt_6_11_0_for_macOS-Debug/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -507,7 +507,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/Users/youssefwaelibrahim92gmail.com/Desktop/StudentSystem_QtGUI_VALIDATIONS"
+			"value" : "/Users/youssefwaelibrahim92gmail.com/Desktop/cpp project/qtapp"
 		},
 		{
 			"name" : "CMAKE_INSTALL_BINDIR",
@@ -1059,7 +1059,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/Users/youssefwaelibrahim92gmail.com/Desktop/StudentSystem_QtGUI_VALIDATIONS/build/Qt_6_11_0_for_macOS-Debug/.qtcreator/cmake-helper/qtcreator-project.cmake"
+			"value" : "/Users/youssefwaelibrahim92gmail.com/Desktop/cpp project/qtapp/build/Qt_6_11_0_for_macOS-Debug/.qtcreator/cmake-helper/qtcreator-project.cmake"
 		},
 		{
 			"name" : "CMAKE_PROJECT_NAME",
@@ -1539,7 +1539,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/Users/youssefwaelibrahim92gmail.com/Desktop/StudentSystem_QtGUI_VALIDATIONS/build/Qt_6_11_0_for_macOS-Debug/.qtcreator/cmake-helper"
+			"value" : "/Users/youssefwaelibrahim92gmail.com/Desktop/cpp project/qtapp/build/Qt_6_11_0_for_macOS-Debug/.qtcreator/cmake-helper"
 		},
 		{
 			"name" : "QT_ADDITIONAL_HOST_PACKAGES_PREFIX_PATH",
@@ -6759,7 +6759,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/youssefwaelibrahim92gmail.com/Desktop/StudentSystem_QtGUI_VALIDATIONS/build/Qt_6_11_0_for_macOS-Debug"
+			"value" : "/Users/youssefwaelibrahim92gmail.com/Desktop/cpp project/qtapp/build/Qt_6_11_0_for_macOS-Debug"
 		},
 		{
 			"name" : "StudentSystem_QtGUI_IS_TOP_LEVEL",
@@ -6783,7 +6783,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/youssefwaelibrahim92gmail.com/Desktop/StudentSystem_QtGUI_VALIDATIONS"
+			"value" : "/Users/youssefwaelibrahim92gmail.com/Desktop/cpp project/qtapp"
 		},
 		{
 			"name" : "_GNUInstallDirs_LAST_CMAKE_INSTALL_PREFIX",

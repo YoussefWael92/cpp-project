@@ -1,5 +1,5 @@
 CMakeFiles/StudentSystem_QtGUI.dir/main.cpp.o: \
-  /Users/youssefwaelibrahim92gmail.com/Desktop/StudentSystem_QtGUI_VALIDATIONS/main.cpp \
+  /Users/youssefwaelibrahim92gmail.com/Desktop/cpp\ project/qtapp/main.cpp \
   /Users/youssefwaelibrahim92gmail.com/Qt/6.11.0/macos/lib/QtWidgets.framework/Headers/QApplication \
   /Users/youssefwaelibrahim92gmail.com/Qt/6.11.0/macos/lib/QtWidgets.framework/Headers/qapplication.h \
   /Users/youssefwaelibrahim92gmail.com/Qt/6.11.0/macos/lib/QtWidgets.framework/Headers/qtwidgetsglobal.h \
@@ -966,7 +966,7 @@ CMakeFiles/StudentSystem_QtGUI.dir/main.cpp.o: \
   /Users/youssefwaelibrahim92gmail.com/Qt/6.11.0/macos/lib/QtCore.framework/Headers/qvarlengtharray.h \
   /Users/youssefwaelibrahim92gmail.com/Qt/6.11.0/macos/lib/QtCore.framework/Headers/qalloc.h \
   /Users/youssefwaelibrahim92gmail.com/Qt/6.11.0/macos/lib/QtGui.framework/Headers/qguiapplication_platform.h \
-  /Users/youssefwaelibrahim92gmail.com/Desktop/StudentSystem_QtGUI_VALIDATIONS/mainwindow.h \
+  /Users/youssefwaelibrahim92gmail.com/Desktop/cpp\ project/qtapp/mainwindow.h \
   /Users/youssefwaelibrahim92gmail.com/Qt/6.11.0/macos/lib/QtWidgets.framework/Headers/QMainWindow \
   /Users/youssefwaelibrahim92gmail.com/Qt/6.11.0/macos/lib/QtWidgets.framework/Headers/qmainwindow.h \
   /Users/youssefwaelibrahim92gmail.com/Qt/6.11.0/macos/lib/QtWidgets.framework/Headers/qwidget.h \
@@ -1023,7 +1023,7 @@ CMakeFiles/StudentSystem_QtGUI.dir/main.cpp.o: \
   /Users/youssefwaelibrahim92gmail.com/Qt/6.11.0/macos/lib/QtWidgets.framework/Headers/qpushbutton.h \
   /Users/youssefwaelibrahim92gmail.com/Qt/6.11.0/macos/lib/QtWidgets.framework/Headers/qabstractbutton.h \
   /Users/youssefwaelibrahim92gmail.com/Qt/6.11.0/macos/lib/QtWidgets.framework/Headers/QTabWidget \
-  /Users/youssefwaelibrahim92gmail.com/Desktop/StudentSystem_QtGUI_VALIDATIONS/globals.h \
+  /Users/youssefwaelibrahim92gmail.com/Desktop/cpp\ project/qtapp/globals.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/iostream \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/istream \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__ostream/basic_ostream.h \
@@ -1060,6 +1060,6 @@ CMakeFiles/StudentSystem_QtGUI.dir/main.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__filesystem/recursive_directory_iterator.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__filesystem/u8path.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/sstream \
-  /Users/youssefwaelibrahim92gmail.com/Desktop/StudentSystem_QtGUI_VALIDATIONS/student.h \
-  /Users/youssefwaelibrahim92gmail.com/Desktop/StudentSystem_QtGUI_VALIDATIONS/course.h \
-  /Users/youssefwaelibrahim92gmail.com/Desktop/StudentSystem_QtGUI_VALIDATIONS/grades.h
+  /Users/youssefwaelibrahim92gmail.com/Desktop/cpp\ project/qtapp/student.h \
+  /Users/youssefwaelibrahim92gmail.com/Desktop/cpp\ project/qtapp/course.h \
+  /Users/youssefwaelibrahim92gmail.com/Desktop/cpp\ project/qtapp/grades.h

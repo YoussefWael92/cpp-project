@@ -1,19 +1,19 @@
 {
-	"BUILD_DIR" : "/Users/youssefwaelibrahim92gmail.com/Desktop/StudentSystem_QtGUI_VALIDATIONS/build/Qt_6_11_0_for_macOS-Debug/StudentSystem_QtGUI_autogen",
-	"CMAKE_BINARY_DIR" : "/Users/youssefwaelibrahim92gmail.com/Desktop/StudentSystem_QtGUI_VALIDATIONS/build/Qt_6_11_0_for_macOS-Debug",
-	"CMAKE_CURRENT_BINARY_DIR" : "/Users/youssefwaelibrahim92gmail.com/Desktop/StudentSystem_QtGUI_VALIDATIONS/build/Qt_6_11_0_for_macOS-Debug",
-	"CMAKE_CURRENT_SOURCE_DIR" : "/Users/youssefwaelibrahim92gmail.com/Desktop/StudentSystem_QtGUI_VALIDATIONS",
+	"BUILD_DIR" : "/Users/youssefwaelibrahim92gmail.com/Desktop/cpp project/qtapp/build/Qt_6_11_0_for_macOS-Debug/StudentSystem_QtGUI_autogen",
+	"CMAKE_BINARY_DIR" : "/Users/youssefwaelibrahim92gmail.com/Desktop/cpp project/qtapp/build/Qt_6_11_0_for_macOS-Debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "/Users/youssefwaelibrahim92gmail.com/Desktop/cpp project/qtapp/build/Qt_6_11_0_for_macOS-Debug",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/Users/youssefwaelibrahim92gmail.com/Desktop/cpp project/qtapp",
 	"CMAKE_EXECUTABLE" : "/Users/youssefwaelibrahim92gmail.com/Qt/Tools/CMake/CMake.app/Contents/bin/cmake",
 	"CMAKE_LIST_FILES" : 
 	[
-		"/Users/youssefwaelibrahim92gmail.com/Desktop/StudentSystem_QtGUI_VALIDATIONS/CMakeLists.txt",
-		"/Users/youssefwaelibrahim92gmail.com/Desktop/StudentSystem_QtGUI_VALIDATIONS/build/Qt_6_11_0_for_macOS-Debug/.qtcreator/cmake-helper/qtcreator-project.cmake",
-		"/Users/youssefwaelibrahim92gmail.com/Desktop/StudentSystem_QtGUI_VALIDATIONS/build/Qt_6_11_0_for_macOS-Debug/.qtcreator/cmake-helper/package-manager.cmake",
+		"/Users/youssefwaelibrahim92gmail.com/Desktop/cpp project/qtapp/CMakeLists.txt",
+		"/Users/youssefwaelibrahim92gmail.com/Desktop/cpp project/qtapp/build/Qt_6_11_0_for_macOS-Debug/.qtcreator/cmake-helper/qtcreator-project.cmake",
+		"/Users/youssefwaelibrahim92gmail.com/Desktop/cpp project/qtapp/build/Qt_6_11_0_for_macOS-Debug/.qtcreator/cmake-helper/package-manager.cmake",
 		"/Users/youssefwaelibrahim92gmail.com/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeDetermineSystem.cmake",
 		"/Users/youssefwaelibrahim92gmail.com/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeSystem.cmake.in",
-		"/Users/youssefwaelibrahim92gmail.com/Desktop/StudentSystem_QtGUI_VALIDATIONS/build/Qt_6_11_0_for_macOS-Debug/CMakeFiles/3.30.5/CMakeSystem.cmake",
+		"/Users/youssefwaelibrahim92gmail.com/Desktop/cpp project/qtapp/build/Qt_6_11_0_for_macOS-Debug/CMakeFiles/3.30.5/CMakeSystem.cmake",
 		"/Users/youssefwaelibrahim92gmail.com/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeUnixFindMake.cmake",
-		"/Users/youssefwaelibrahim92gmail.com/Desktop/StudentSystem_QtGUI_VALIDATIONS/build/Qt_6_11_0_for_macOS-Debug/.qtcreator/cmake-helper/maintenance_tool_provider.cmake",
+		"/Users/youssefwaelibrahim92gmail.com/Desktop/cpp project/qtapp/build/Qt_6_11_0_for_macOS-Debug/.qtcreator/cmake-helper/maintenance_tool_provider.cmake",
 		"/Users/youssefwaelibrahim92gmail.com/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake",
 		"/Users/youssefwaelibrahim92gmail.com/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/Platform/Darwin-Initialize.cmake",
 		"/Users/youssefwaelibrahim92gmail.com/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeDetermineCXXCompiler.cmake",
@@ -65,7 +65,7 @@
 		"/Users/youssefwaelibrahim92gmail.com/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake",
 		"/Users/youssefwaelibrahim92gmail.com/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindBinUtils.cmake",
 		"/Users/youssefwaelibrahim92gmail.com/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeCXXCompiler.cmake.in",
-		"/Users/youssefwaelibrahim92gmail.com/Desktop/StudentSystem_QtGUI_VALIDATIONS/build/Qt_6_11_0_for_macOS-Debug/CMakeFiles/3.30.5/CMakeCXXCompiler.cmake",
+		"/Users/youssefwaelibrahim92gmail.com/Desktop/cpp project/qtapp/build/Qt_6_11_0_for_macOS-Debug/CMakeFiles/3.30.5/CMakeCXXCompiler.cmake",
 		"/Users/youssefwaelibrahim92gmail.com/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake",
 		"/Users/youssefwaelibrahim92gmail.com/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeGenericSystem.cmake",
 		"/Users/youssefwaelibrahim92gmail.com/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake",
@@ -94,7 +94,7 @@
 		"/Users/youssefwaelibrahim92gmail.com/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeDetermineCompilerSupport.cmake",
 		"/Users/youssefwaelibrahim92gmail.com/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/Internal/FeatureTesting.cmake",
 		"/Users/youssefwaelibrahim92gmail.com/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeCXXCompiler.cmake.in",
-		"/Users/youssefwaelibrahim92gmail.com/Desktop/StudentSystem_QtGUI_VALIDATIONS/build/Qt_6_11_0_for_macOS-Debug/CMakeFiles/3.30.5/CMakeCXXCompiler.cmake",
+		"/Users/youssefwaelibrahim92gmail.com/Desktop/cpp project/qtapp/build/Qt_6_11_0_for_macOS-Debug/CMakeFiles/3.30.5/CMakeCXXCompiler.cmake",
 		"/Users/youssefwaelibrahim92gmail.com/Qt/6.11.0/macos/lib/cmake/Qt6Widgets/Qt6WidgetsConfigVersion.cmake",
 		"/Users/youssefwaelibrahim92gmail.com/Qt/6.11.0/macos/lib/cmake/Qt6Widgets/Qt6WidgetsConfigVersionImpl.cmake",
 		"/Users/youssefwaelibrahim92gmail.com/Qt/6.11.0/macos/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake",
@@ -433,40 +433,40 @@
 		"/Users/youssefwaelibrahim92gmail.com/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake",
 		"/Users/youssefwaelibrahim92gmail.com/Qt/6.11.0/macos/lib/cmake/Qt6/Qt6Dependencies.cmake"
 	],
-	"CMAKE_SOURCE_DIR" : "/Users/youssefwaelibrahim92gmail.com/Desktop/StudentSystem_QtGUI_VALIDATIONS",
+	"CMAKE_SOURCE_DIR" : "/Users/youssefwaelibrahim92gmail.com/Desktop/cpp project/qtapp",
 	"CROSS_CONFIG" : false,
-	"DEP_FILE" : "/Users/youssefwaelibrahim92gmail.com/Desktop/StudentSystem_QtGUI_VALIDATIONS/build/Qt_6_11_0_for_macOS-Debug/StudentSystem_QtGUI_autogen/deps",
+	"DEP_FILE" : "/Users/youssefwaelibrahim92gmail.com/Desktop/cpp project/qtapp/build/Qt_6_11_0_for_macOS-Debug/StudentSystem_QtGUI_autogen/deps",
 	"DEP_FILE_RULE_NAME" : "StudentSystem_QtGUI_autogen/timestamp",
 	"HEADERS" : 
 	[
 		[
-			"/Users/youssefwaelibrahim92gmail.com/Desktop/StudentSystem_QtGUI_VALIDATIONS/course.h",
+			"/Users/youssefwaelibrahim92gmail.com/Desktop/cpp project/qtapp/course.h",
 			"MU",
 			"EWIEGA46WW/moc_course.cpp",
 			null
 		],
 		[
-			"/Users/youssefwaelibrahim92gmail.com/Desktop/StudentSystem_QtGUI_VALIDATIONS/grades.h",
+			"/Users/youssefwaelibrahim92gmail.com/Desktop/cpp project/qtapp/grades.h",
 			"MU",
 			"EWIEGA46WW/moc_grades.cpp",
 			null
 		],
 		[
-			"/Users/youssefwaelibrahim92gmail.com/Desktop/StudentSystem_QtGUI_VALIDATIONS/mainwindow.h",
+			"/Users/youssefwaelibrahim92gmail.com/Desktop/cpp project/qtapp/mainwindow.h",
 			"MU",
 			"EWIEGA46WW/moc_mainwindow.cpp",
 			null
 		],
 		[
-			"/Users/youssefwaelibrahim92gmail.com/Desktop/StudentSystem_QtGUI_VALIDATIONS/student.h",
+			"/Users/youssefwaelibrahim92gmail.com/Desktop/cpp project/qtapp/student.h",
 			"MU",
 			"EWIEGA46WW/moc_student.cpp",
 			null
 		]
 	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
-	"INCLUDE_DIR" : "/Users/youssefwaelibrahim92gmail.com/Desktop/StudentSystem_QtGUI_VALIDATIONS/build/Qt_6_11_0_for_macOS-Debug/StudentSystem_QtGUI_autogen/include",
-	"MOC_COMPILATION_FILE" : "/Users/youssefwaelibrahim92gmail.com/Desktop/StudentSystem_QtGUI_VALIDATIONS/build/Qt_6_11_0_for_macOS-Debug/StudentSystem_QtGUI_autogen/mocs_compilation.cpp",
+	"INCLUDE_DIR" : "/Users/youssefwaelibrahim92gmail.com/Desktop/cpp project/qtapp/build/Qt_6_11_0_for_macOS-Debug/StudentSystem_QtGUI_autogen/include",
+	"MOC_COMPILATION_FILE" : "/Users/youssefwaelibrahim92gmail.com/Desktop/cpp project/qtapp/build/Qt_6_11_0_for_macOS-Debug/StudentSystem_QtGUI_autogen/mocs_compilation.cpp",
 	"MOC_DEFINITIONS" : [ "QT_CORE_LIB", "QT_GUI_LIB", "QT_QML_DEBUG", "QT_WIDGETS_LIB" ],
 	"MOC_DEPEND_FILTERS" : 
 	[
@@ -510,41 +510,41 @@
 		"-c",
 		"/Users/youssefwaelibrahim92gmail.com/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeCXXCompilerABI.cpp"
 	],
-	"MOC_PREDEFS_FILE" : "/Users/youssefwaelibrahim92gmail.com/Desktop/StudentSystem_QtGUI_VALIDATIONS/build/Qt_6_11_0_for_macOS-Debug/StudentSystem_QtGUI_autogen/moc_predefs.h",
+	"MOC_PREDEFS_FILE" : "/Users/youssefwaelibrahim92gmail.com/Desktop/cpp project/qtapp/build/Qt_6_11_0_for_macOS-Debug/StudentSystem_QtGUI_autogen/moc_predefs.h",
 	"MOC_RELAXED_MODE" : false,
 	"MOC_SKIP" : [],
 	"MULTI_CONFIG" : false,
 	"PARALLEL" : 8,
-	"PARSE_CACHE_FILE" : "/Users/youssefwaelibrahim92gmail.com/Desktop/StudentSystem_QtGUI_VALIDATIONS/build/Qt_6_11_0_for_macOS-Debug/CMakeFiles/StudentSystem_QtGUI_autogen.dir/ParseCache.txt",
+	"PARSE_CACHE_FILE" : "/Users/youssefwaelibrahim92gmail.com/Desktop/cpp project/qtapp/build/Qt_6_11_0_for_macOS-Debug/CMakeFiles/StudentSystem_QtGUI_autogen.dir/ParseCache.txt",
 	"QT_MOC_EXECUTABLE" : "/Users/youssefwaelibrahim92gmail.com/Qt/6.11.0/macos/libexec/moc",
 	"QT_UIC_EXECUTABLE" : "/Users/youssefwaelibrahim92gmail.com/Qt/6.11.0/macos/libexec/uic",
 	"QT_VERSION_MAJOR" : 6,
 	"QT_VERSION_MINOR" : 11,
-	"SETTINGS_FILE" : "/Users/youssefwaelibrahim92gmail.com/Desktop/StudentSystem_QtGUI_VALIDATIONS/build/Qt_6_11_0_for_macOS-Debug/CMakeFiles/StudentSystem_QtGUI_autogen.dir/AutogenUsed.txt",
+	"SETTINGS_FILE" : "/Users/youssefwaelibrahim92gmail.com/Desktop/cpp project/qtapp/build/Qt_6_11_0_for_macOS-Debug/CMakeFiles/StudentSystem_QtGUI_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
 		[
-			"/Users/youssefwaelibrahim92gmail.com/Desktop/StudentSystem_QtGUI_VALIDATIONS/course.cpp",
+			"/Users/youssefwaelibrahim92gmail.com/Desktop/cpp project/qtapp/course.cpp",
 			"MU",
 			null
 		],
 		[
-			"/Users/youssefwaelibrahim92gmail.com/Desktop/StudentSystem_QtGUI_VALIDATIONS/grades.cpp",
+			"/Users/youssefwaelibrahim92gmail.com/Desktop/cpp project/qtapp/grades.cpp",
 			"MU",
 			null
 		],
 		[
-			"/Users/youssefwaelibrahim92gmail.com/Desktop/StudentSystem_QtGUI_VALIDATIONS/main.cpp",
+			"/Users/youssefwaelibrahim92gmail.com/Desktop/cpp project/qtapp/main.cpp",
 			"MU",
 			null
 		],
 		[
-			"/Users/youssefwaelibrahim92gmail.com/Desktop/StudentSystem_QtGUI_VALIDATIONS/mainwindow.cpp",
+			"/Users/youssefwaelibrahim92gmail.com/Desktop/cpp project/qtapp/mainwindow.cpp",
 			"MU",
 			null
 		],
 		[
-			"/Users/youssefwaelibrahim92gmail.com/Desktop/StudentSystem_QtGUI_VALIDATIONS/student.cpp",
+			"/Users/youssefwaelibrahim92gmail.com/Desktop/cpp project/qtapp/student.cpp",
 			"MU",
 			null
 		]

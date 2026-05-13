@@ -1,5 +1,5 @@
-/Users/youssefwaelibrahim92gmail.com/Desktop/StudentSystem_QtGUI_VALIDATIONS/build/Qt_6_11_0_for_macOS-Debug/CMakeFiles/StudentSystem_QtGUI.dir
-/Users/youssefwaelibrahim92gmail.com/Desktop/StudentSystem_QtGUI_VALIDATIONS/build/Qt_6_11_0_for_macOS-Debug/CMakeFiles/edit_cache.dir
-/Users/youssefwaelibrahim92gmail.com/Desktop/StudentSystem_QtGUI_VALIDATIONS/build/Qt_6_11_0_for_macOS-Debug/CMakeFiles/rebuild_cache.dir
-/Users/youssefwaelibrahim92gmail.com/Desktop/StudentSystem_QtGUI_VALIDATIONS/build/Qt_6_11_0_for_macOS-Debug/CMakeFiles/StudentSystem_QtGUI_autogen_timestamp_deps.dir
-/Users/youssefwaelibrahim92gmail.com/Desktop/StudentSystem_QtGUI_VALIDATIONS/build/Qt_6_11_0_for_macOS-Debug/CMakeFiles/StudentSystem_QtGUI_autogen.dir
+/Users/youssefwaelibrahim92gmail.com/Desktop/cpp project/qtapp/build/Qt_6_11_0_for_macOS-Debug/CMakeFiles/StudentSystem_QtGUI.dir
+/Users/youssefwaelibrahim92gmail.com/Desktop/cpp project/qtapp/build/Qt_6_11_0_for_macOS-Debug/CMakeFiles/edit_cache.dir
+/Users/youssefwaelibrahim92gmail.com/Desktop/cpp project/qtapp/build/Qt_6_11_0_for_macOS-Debug/CMakeFiles/rebuild_cache.dir
+/Users/youssefwaelibrahim92gmail.com/Desktop/cpp project/qtapp/build/Qt_6_11_0_for_macOS-Debug/CMakeFiles/StudentSystem_QtGUI_autogen_timestamp_deps.dir
+/Users/youssefwaelibrahim92gmail.com/Desktop/cpp project/qtapp/build/Qt_6_11_0_for_macOS-Debug/CMakeFiles/StudentSystem_QtGUI_autogen.dir

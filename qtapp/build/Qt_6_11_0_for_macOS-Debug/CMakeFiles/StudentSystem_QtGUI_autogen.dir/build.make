@@ -53,10 +53,10 @@ RM = /Users/youssefwaelibrahim92gmail.com/Qt/Tools/CMake/CMake.app/Contents/bin/
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/youssefwaelibrahim92gmail.com/Desktop/StudentSystem_QtGUI_VALIDATIONS
+CMAKE_SOURCE_DIR = "/Users/youssefwaelibrahim92gmail.com/Desktop/cpp project/qtapp"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/youssefwaelibrahim92gmail.com/Desktop/StudentSystem_QtGUI_VALIDATIONS/build/Qt_6_11_0_for_macOS-Debug
+CMAKE_BINARY_DIR = "/Users/youssefwaelibrahim92gmail.com/Desktop/cpp project/qtapp/build/Qt_6_11_0_for_macOS-Debug"
 
 # Utility rule file for StudentSystem_QtGUI_autogen.
 
@@ -71,9 +71,9 @@ CMakeFiles/StudentSystem_QtGUI_autogen: StudentSystem_QtGUI_autogen/timestamp
 StudentSystem_QtGUI_autogen/timestamp: /Users/youssefwaelibrahim92gmail.com/Qt/6.11.0/macos/libexec/moc
 StudentSystem_QtGUI_autogen/timestamp: /Users/youssefwaelibrahim92gmail.com/Qt/6.11.0/macos/libexec/uic
 StudentSystem_QtGUI_autogen/timestamp: CMakeFiles/StudentSystem_QtGUI_autogen.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/youssefwaelibrahim92gmail.com/Desktop/StudentSystem_QtGUI_VALIDATIONS/build/Qt_6_11_0_for_macOS-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target StudentSystem_QtGUI"
-	/Users/youssefwaelibrahim92gmail.com/Qt/Tools/CMake/CMake.app/Contents/bin/cmake -E cmake_autogen /Users/youssefwaelibrahim92gmail.com/Desktop/StudentSystem_QtGUI_VALIDATIONS/build/Qt_6_11_0_for_macOS-Debug/CMakeFiles/StudentSystem_QtGUI_autogen.dir/AutogenInfo.json Debug
-	/Users/youssefwaelibrahim92gmail.com/Qt/Tools/CMake/CMake.app/Contents/bin/cmake -E touch /Users/youssefwaelibrahim92gmail.com/Desktop/StudentSystem_QtGUI_VALIDATIONS/build/Qt_6_11_0_for_macOS-Debug/StudentSystem_QtGUI_autogen/timestamp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir="/Users/youssefwaelibrahim92gmail.com/Desktop/cpp project/qtapp/build/Qt_6_11_0_for_macOS-Debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target StudentSystem_QtGUI"
+	/Users/youssefwaelibrahim92gmail.com/Qt/Tools/CMake/CMake.app/Contents/bin/cmake -E cmake_autogen "/Users/youssefwaelibrahim92gmail.com/Desktop/cpp project/qtapp/build/Qt_6_11_0_for_macOS-Debug/CMakeFiles/StudentSystem_QtGUI_autogen.dir/AutogenInfo.json" Debug
+	/Users/youssefwaelibrahim92gmail.com/Qt/Tools/CMake/CMake.app/Contents/bin/cmake -E touch "/Users/youssefwaelibrahim92gmail.com/Desktop/cpp project/qtapp/build/Qt_6_11_0_for_macOS-Debug/StudentSystem_QtGUI_autogen/timestamp"
 
 StudentSystem_QtGUI_autogen: CMakeFiles/StudentSystem_QtGUI_autogen
 StudentSystem_QtGUI_autogen: StudentSystem_QtGUI_autogen/timestamp
@@ -89,6 +89,6 @@ CMakeFiles/StudentSystem_QtGUI_autogen.dir/clean:
 .PHONY : CMakeFiles/StudentSystem_QtGUI_autogen.dir/clean
 
 CMakeFiles/StudentSystem_QtGUI_autogen.dir/depend:
-	cd /Users/youssefwaelibrahim92gmail.com/Desktop/StudentSystem_QtGUI_VALIDATIONS/build/Qt_6_11_0_for_macOS-Debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/youssefwaelibrahim92gmail.com/Desktop/StudentSystem_QtGUI_VALIDATIONS /Users/youssefwaelibrahim92gmail.com/Desktop/StudentSystem_QtGUI_VALIDATIONS /Users/youssefwaelibrahim92gmail.com/Desktop/StudentSystem_QtGUI_VALIDATIONS/build/Qt_6_11_0_for_macOS-Debug /Users/youssefwaelibrahim92gmail.com/Desktop/StudentSystem_QtGUI_VALIDATIONS/build/Qt_6_11_0_for_macOS-Debug /Users/youssefwaelibrahim92gmail.com/Desktop/StudentSystem_QtGUI_VALIDATIONS/build/Qt_6_11_0_for_macOS-Debug/CMakeFiles/StudentSystem_QtGUI_autogen.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd "/Users/youssefwaelibrahim92gmail.com/Desktop/cpp project/qtapp/build/Qt_6_11_0_for_macOS-Debug" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Users/youssefwaelibrahim92gmail.com/Desktop/cpp project/qtapp" "/Users/youssefwaelibrahim92gmail.com/Desktop/cpp project/qtapp" "/Users/youssefwaelibrahim92gmail.com/Desktop/cpp project/qtapp/build/Qt_6_11_0_for_macOS-Debug" "/Users/youssefwaelibrahim92gmail.com/Desktop/cpp project/qtapp/build/Qt_6_11_0_for_macOS-Debug" "/Users/youssefwaelibrahim92gmail.com/Desktop/cpp project/qtapp/build/Qt_6_11_0_for_macOS-Debug/CMakeFiles/StudentSystem_QtGUI_autogen.dir/DependInfo.cmake" "--color=$(COLOR)"
 .PHONY : CMakeFiles/StudentSystem_QtGUI_autogen.dir/depend
 

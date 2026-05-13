@@ -53,10 +53,10 @@ RM = /Users/youssefwaelibrahim92gmail.com/Qt/Tools/CMake/CMake.app/Contents/bin/
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/youssefwaelibrahim92gmail.com/Desktop/StudentSystem_QtGUI_VALIDATIONS
+CMAKE_SOURCE_DIR = "/Users/youssefwaelibrahim92gmail.com/Desktop/cpp project/qtapp"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/youssefwaelibrahim92gmail.com/Desktop/StudentSystem_QtGUI_VALIDATIONS/build/Qt_6_11_0_for_macOS-Debug
+CMAKE_BINARY_DIR = "/Users/youssefwaelibrahim92gmail.com/Desktop/cpp project/qtapp/build/Qt_6_11_0_for_macOS-Debug"
 
 # Utility rule file for StudentSystem_QtGUI_autogen_timestamp_deps.
 
@@ -78,6 +78,6 @@ CMakeFiles/StudentSystem_QtGUI_autogen_timestamp_deps.dir/clean:
 .PHONY : CMakeFiles/StudentSystem_QtGUI_autogen_timestamp_deps.dir/clean
 
 CMakeFiles/StudentSystem_QtGUI_autogen_timestamp_deps.dir/depend:
-	cd /Users/youssefwaelibrahim92gmail.com/Desktop/StudentSystem_QtGUI_VALIDATIONS/build/Qt_6_11_0_for_macOS-Debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/youssefwaelibrahim92gmail.com/Desktop/StudentSystem_QtGUI_VALIDATIONS /Users/youssefwaelibrahim92gmail.com/Desktop/StudentSystem_QtGUI_VALIDATIONS /Users/youssefwaelibrahim92gmail.com/Desktop/StudentSystem_QtGUI_VALIDATIONS/build/Qt_6_11_0_for_macOS-Debug /Users/youssefwaelibrahim92gmail.com/Desktop/StudentSystem_QtGUI_VALIDATIONS/build/Qt_6_11_0_for_macOS-Debug /Users/youssefwaelibrahim92gmail.com/Desktop/StudentSystem_QtGUI_VALIDATIONS/build/Qt_6_11_0_for_macOS-Debug/CMakeFiles/StudentSystem_QtGUI_autogen_timestamp_deps.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd "/Users/youssefwaelibrahim92gmail.com/Desktop/cpp project/qtapp/build/Qt_6_11_0_for_macOS-Debug" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Users/youssefwaelibrahim92gmail.com/Desktop/cpp project/qtapp" "/Users/youssefwaelibrahim92gmail.com/Desktop/cpp project/qtapp" "/Users/youssefwaelibrahim92gmail.com/Desktop/cpp project/qtapp/build/Qt_6_11_0_for_macOS-Debug" "/Users/youssefwaelibrahim92gmail.com/Desktop/cpp project/qtapp/build/Qt_6_11_0_for_macOS-Debug" "/Users/youssefwaelibrahim92gmail.com/Desktop/cpp project/qtapp/build/Qt_6_11_0_for_macOS-Debug/CMakeFiles/StudentSystem_QtGUI_autogen_timestamp_deps.dir/DependInfo.cmake" "--color=$(COLOR)"
 .PHONY : CMakeFiles/StudentSystem_QtGUI_autogen_timestamp_deps.dir/depend
 

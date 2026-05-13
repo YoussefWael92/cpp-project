@@ -53,10 +53,10 @@ RM = /Users/youssefwaelibrahim92gmail.com/Qt/Tools/CMake/CMake.app/Contents/bin/
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/youssefwaelibrahim92gmail.com/Desktop/StudentSystem_QtGUI_VALIDATIONS
+CMAKE_SOURCE_DIR = "/Users/youssefwaelibrahim92gmail.com/Desktop/cpp project/qtapp"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/youssefwaelibrahim92gmail.com/Desktop/StudentSystem_QtGUI_VALIDATIONS/build/Qt_6_11_0_for_macOS-Debug
+CMAKE_BINARY_DIR = "/Users/youssefwaelibrahim92gmail.com/Desktop/cpp project/qtapp/build/Qt_6_11_0_for_macOS-Debug"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/StudentSystem_QtGUI.dir/depend.make
@@ -72,93 +72,93 @@ include CMakeFiles/StudentSystem_QtGUI.dir/flags.make
 StudentSystem_QtGUI_autogen/timestamp: /Users/youssefwaelibrahim92gmail.com/Qt/6.11.0/macos/libexec/moc
 StudentSystem_QtGUI_autogen/timestamp: /Users/youssefwaelibrahim92gmail.com/Qt/6.11.0/macos/libexec/uic
 StudentSystem_QtGUI_autogen/timestamp: CMakeFiles/StudentSystem_QtGUI.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/youssefwaelibrahim92gmail.com/Desktop/StudentSystem_QtGUI_VALIDATIONS/build/Qt_6_11_0_for_macOS-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target StudentSystem_QtGUI"
-	/Users/youssefwaelibrahim92gmail.com/Qt/Tools/CMake/CMake.app/Contents/bin/cmake -E cmake_autogen /Users/youssefwaelibrahim92gmail.com/Desktop/StudentSystem_QtGUI_VALIDATIONS/build/Qt_6_11_0_for_macOS-Debug/CMakeFiles/StudentSystem_QtGUI_autogen.dir/AutogenInfo.json Debug
-	/Users/youssefwaelibrahim92gmail.com/Qt/Tools/CMake/CMake.app/Contents/bin/cmake -E touch /Users/youssefwaelibrahim92gmail.com/Desktop/StudentSystem_QtGUI_VALIDATIONS/build/Qt_6_11_0_for_macOS-Debug/StudentSystem_QtGUI_autogen/timestamp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir="/Users/youssefwaelibrahim92gmail.com/Desktop/cpp project/qtapp/build/Qt_6_11_0_for_macOS-Debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target StudentSystem_QtGUI"
+	/Users/youssefwaelibrahim92gmail.com/Qt/Tools/CMake/CMake.app/Contents/bin/cmake -E cmake_autogen "/Users/youssefwaelibrahim92gmail.com/Desktop/cpp project/qtapp/build/Qt_6_11_0_for_macOS-Debug/CMakeFiles/StudentSystem_QtGUI_autogen.dir/AutogenInfo.json" Debug
+	/Users/youssefwaelibrahim92gmail.com/Qt/Tools/CMake/CMake.app/Contents/bin/cmake -E touch "/Users/youssefwaelibrahim92gmail.com/Desktop/cpp project/qtapp/build/Qt_6_11_0_for_macOS-Debug/StudentSystem_QtGUI_autogen/timestamp"
 
 CMakeFiles/StudentSystem_QtGUI.dir/StudentSystem_QtGUI_autogen/mocs_compilation.cpp.o: CMakeFiles/StudentSystem_QtGUI.dir/flags.make
 CMakeFiles/StudentSystem_QtGUI.dir/StudentSystem_QtGUI_autogen/mocs_compilation.cpp.o: StudentSystem_QtGUI_autogen/mocs_compilation.cpp
 CMakeFiles/StudentSystem_QtGUI.dir/StudentSystem_QtGUI_autogen/mocs_compilation.cpp.o: CMakeFiles/StudentSystem_QtGUI.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/youssefwaelibrahim92gmail.com/Desktop/StudentSystem_QtGUI_VALIDATIONS/build/Qt_6_11_0_for_macOS-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/StudentSystem_QtGUI.dir/StudentSystem_QtGUI_autogen/mocs_compilation.cpp.o"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/StudentSystem_QtGUI.dir/StudentSystem_QtGUI_autogen/mocs_compilation.cpp.o -MF CMakeFiles/StudentSystem_QtGUI.dir/StudentSystem_QtGUI_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/StudentSystem_QtGUI.dir/StudentSystem_QtGUI_autogen/mocs_compilation.cpp.o -c /Users/youssefwaelibrahim92gmail.com/Desktop/StudentSystem_QtGUI_VALIDATIONS/build/Qt_6_11_0_for_macOS-Debug/StudentSystem_QtGUI_autogen/mocs_compilation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/youssefwaelibrahim92gmail.com/Desktop/cpp project/qtapp/build/Qt_6_11_0_for_macOS-Debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/StudentSystem_QtGUI.dir/StudentSystem_QtGUI_autogen/mocs_compilation.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/StudentSystem_QtGUI.dir/StudentSystem_QtGUI_autogen/mocs_compilation.cpp.o -MF CMakeFiles/StudentSystem_QtGUI.dir/StudentSystem_QtGUI_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/StudentSystem_QtGUI.dir/StudentSystem_QtGUI_autogen/mocs_compilation.cpp.o -c "/Users/youssefwaelibrahim92gmail.com/Desktop/cpp project/qtapp/build/Qt_6_11_0_for_macOS-Debug/StudentSystem_QtGUI_autogen/mocs_compilation.cpp"
 
 CMakeFiles/StudentSystem_QtGUI.dir/StudentSystem_QtGUI_autogen/mocs_compilation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/StudentSystem_QtGUI.dir/StudentSystem_QtGUI_autogen/mocs_compilation.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/youssefwaelibrahim92gmail.com/Desktop/StudentSystem_QtGUI_VALIDATIONS/build/Qt_6_11_0_for_macOS-Debug/StudentSystem_QtGUI_autogen/mocs_compilation.cpp > CMakeFiles/StudentSystem_QtGUI.dir/StudentSystem_QtGUI_autogen/mocs_compilation.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/youssefwaelibrahim92gmail.com/Desktop/cpp project/qtapp/build/Qt_6_11_0_for_macOS-Debug/StudentSystem_QtGUI_autogen/mocs_compilation.cpp" > CMakeFiles/StudentSystem_QtGUI.dir/StudentSystem_QtGUI_autogen/mocs_compilation.cpp.i
 
 CMakeFiles/StudentSystem_QtGUI.dir/StudentSystem_QtGUI_autogen/mocs_compilation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/StudentSystem_QtGUI.dir/StudentSystem_QtGUI_autogen/mocs_compilation.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/youssefwaelibrahim92gmail.com/Desktop/StudentSystem_QtGUI_VALIDATIONS/build/Qt_6_11_0_for_macOS-Debug/StudentSystem_QtGUI_autogen/mocs_compilation.cpp -o CMakeFiles/StudentSystem_QtGUI.dir/StudentSystem_QtGUI_autogen/mocs_compilation.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/youssefwaelibrahim92gmail.com/Desktop/cpp project/qtapp/build/Qt_6_11_0_for_macOS-Debug/StudentSystem_QtGUI_autogen/mocs_compilation.cpp" -o CMakeFiles/StudentSystem_QtGUI.dir/StudentSystem_QtGUI_autogen/mocs_compilation.cpp.s
 
 CMakeFiles/StudentSystem_QtGUI.dir/main.cpp.o: CMakeFiles/StudentSystem_QtGUI.dir/flags.make
-CMakeFiles/StudentSystem_QtGUI.dir/main.cpp.o: /Users/youssefwaelibrahim92gmail.com/Desktop/StudentSystem_QtGUI_VALIDATIONS/main.cpp
+CMakeFiles/StudentSystem_QtGUI.dir/main.cpp.o: /Users/youssefwaelibrahim92gmail.com/Desktop/cpp\ project/qtapp/main.cpp
 CMakeFiles/StudentSystem_QtGUI.dir/main.cpp.o: CMakeFiles/StudentSystem_QtGUI.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/youssefwaelibrahim92gmail.com/Desktop/StudentSystem_QtGUI_VALIDATIONS/build/Qt_6_11_0_for_macOS-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/StudentSystem_QtGUI.dir/main.cpp.o"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/StudentSystem_QtGUI.dir/main.cpp.o -MF CMakeFiles/StudentSystem_QtGUI.dir/main.cpp.o.d -o CMakeFiles/StudentSystem_QtGUI.dir/main.cpp.o -c /Users/youssefwaelibrahim92gmail.com/Desktop/StudentSystem_QtGUI_VALIDATIONS/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/youssefwaelibrahim92gmail.com/Desktop/cpp project/qtapp/build/Qt_6_11_0_for_macOS-Debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/StudentSystem_QtGUI.dir/main.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/StudentSystem_QtGUI.dir/main.cpp.o -MF CMakeFiles/StudentSystem_QtGUI.dir/main.cpp.o.d -o CMakeFiles/StudentSystem_QtGUI.dir/main.cpp.o -c "/Users/youssefwaelibrahim92gmail.com/Desktop/cpp project/qtapp/main.cpp"
 
 CMakeFiles/StudentSystem_QtGUI.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/StudentSystem_QtGUI.dir/main.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/youssefwaelibrahim92gmail.com/Desktop/StudentSystem_QtGUI_VALIDATIONS/main.cpp > CMakeFiles/StudentSystem_QtGUI.dir/main.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/youssefwaelibrahim92gmail.com/Desktop/cpp project/qtapp/main.cpp" > CMakeFiles/StudentSystem_QtGUI.dir/main.cpp.i
 
 CMakeFiles/StudentSystem_QtGUI.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/StudentSystem_QtGUI.dir/main.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/youssefwaelibrahim92gmail.com/Desktop/StudentSystem_QtGUI_VALIDATIONS/main.cpp -o CMakeFiles/StudentSystem_QtGUI.dir/main.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/youssefwaelibrahim92gmail.com/Desktop/cpp project/qtapp/main.cpp" -o CMakeFiles/StudentSystem_QtGUI.dir/main.cpp.s
 
 CMakeFiles/StudentSystem_QtGUI.dir/mainwindow.cpp.o: CMakeFiles/StudentSystem_QtGUI.dir/flags.make
-CMakeFiles/StudentSystem_QtGUI.dir/mainwindow.cpp.o: /Users/youssefwaelibrahim92gmail.com/Desktop/StudentSystem_QtGUI_VALIDATIONS/mainwindow.cpp
+CMakeFiles/StudentSystem_QtGUI.dir/mainwindow.cpp.o: /Users/youssefwaelibrahim92gmail.com/Desktop/cpp\ project/qtapp/mainwindow.cpp
 CMakeFiles/StudentSystem_QtGUI.dir/mainwindow.cpp.o: CMakeFiles/StudentSystem_QtGUI.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/youssefwaelibrahim92gmail.com/Desktop/StudentSystem_QtGUI_VALIDATIONS/build/Qt_6_11_0_for_macOS-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/StudentSystem_QtGUI.dir/mainwindow.cpp.o"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/StudentSystem_QtGUI.dir/mainwindow.cpp.o -MF CMakeFiles/StudentSystem_QtGUI.dir/mainwindow.cpp.o.d -o CMakeFiles/StudentSystem_QtGUI.dir/mainwindow.cpp.o -c /Users/youssefwaelibrahim92gmail.com/Desktop/StudentSystem_QtGUI_VALIDATIONS/mainwindow.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/youssefwaelibrahim92gmail.com/Desktop/cpp project/qtapp/build/Qt_6_11_0_for_macOS-Debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/StudentSystem_QtGUI.dir/mainwindow.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/StudentSystem_QtGUI.dir/mainwindow.cpp.o -MF CMakeFiles/StudentSystem_QtGUI.dir/mainwindow.cpp.o.d -o CMakeFiles/StudentSystem_QtGUI.dir/mainwindow.cpp.o -c "/Users/youssefwaelibrahim92gmail.com/Desktop/cpp project/qtapp/mainwindow.cpp"
 
 CMakeFiles/StudentSystem_QtGUI.dir/mainwindow.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/StudentSystem_QtGUI.dir/mainwindow.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/youssefwaelibrahim92gmail.com/Desktop/StudentSystem_QtGUI_VALIDATIONS/mainwindow.cpp > CMakeFiles/StudentSystem_QtGUI.dir/mainwindow.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/youssefwaelibrahim92gmail.com/Desktop/cpp project/qtapp/mainwindow.cpp" > CMakeFiles/StudentSystem_QtGUI.dir/mainwindow.cpp.i
 
 CMakeFiles/StudentSystem_QtGUI.dir/mainwindow.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/StudentSystem_QtGUI.dir/mainwindow.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/youssefwaelibrahim92gmail.com/Desktop/StudentSystem_QtGUI_VALIDATIONS/mainwindow.cpp -o CMakeFiles/StudentSystem_QtGUI.dir/mainwindow.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/youssefwaelibrahim92gmail.com/Desktop/cpp project/qtapp/mainwindow.cpp" -o CMakeFiles/StudentSystem_QtGUI.dir/mainwindow.cpp.s
 
 CMakeFiles/StudentSystem_QtGUI.dir/student.cpp.o: CMakeFiles/StudentSystem_QtGUI.dir/flags.make
-CMakeFiles/StudentSystem_QtGUI.dir/student.cpp.o: /Users/youssefwaelibrahim92gmail.com/Desktop/StudentSystem_QtGUI_VALIDATIONS/student.cpp
+CMakeFiles/StudentSystem_QtGUI.dir/student.cpp.o: /Users/youssefwaelibrahim92gmail.com/Desktop/cpp\ project/qtapp/student.cpp
 CMakeFiles/StudentSystem_QtGUI.dir/student.cpp.o: CMakeFiles/StudentSystem_QtGUI.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/youssefwaelibrahim92gmail.com/Desktop/StudentSystem_QtGUI_VALIDATIONS/build/Qt_6_11_0_for_macOS-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/StudentSystem_QtGUI.dir/student.cpp.o"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/StudentSystem_QtGUI.dir/student.cpp.o -MF CMakeFiles/StudentSystem_QtGUI.dir/student.cpp.o.d -o CMakeFiles/StudentSystem_QtGUI.dir/student.cpp.o -c /Users/youssefwaelibrahim92gmail.com/Desktop/StudentSystem_QtGUI_VALIDATIONS/student.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/youssefwaelibrahim92gmail.com/Desktop/cpp project/qtapp/build/Qt_6_11_0_for_macOS-Debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/StudentSystem_QtGUI.dir/student.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/StudentSystem_QtGUI.dir/student.cpp.o -MF CMakeFiles/StudentSystem_QtGUI.dir/student.cpp.o.d -o CMakeFiles/StudentSystem_QtGUI.dir/student.cpp.o -c "/Users/youssefwaelibrahim92gmail.com/Desktop/cpp project/qtapp/student.cpp"
 
 CMakeFiles/StudentSystem_QtGUI.dir/student.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/StudentSystem_QtGUI.dir/student.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/youssefwaelibrahim92gmail.com/Desktop/StudentSystem_QtGUI_VALIDATIONS/student.cpp > CMakeFiles/StudentSystem_QtGUI.dir/student.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/youssefwaelibrahim92gmail.com/Desktop/cpp project/qtapp/student.cpp" > CMakeFiles/StudentSystem_QtGUI.dir/student.cpp.i
 
 CMakeFiles/StudentSystem_QtGUI.dir/student.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/StudentSystem_QtGUI.dir/student.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/youssefwaelibrahim92gmail.com/Desktop/StudentSystem_QtGUI_VALIDATIONS/student.cpp -o CMakeFiles/StudentSystem_QtGUI.dir/student.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/youssefwaelibrahim92gmail.com/Desktop/cpp project/qtapp/student.cpp" -o CMakeFiles/StudentSystem_QtGUI.dir/student.cpp.s
 
 CMakeFiles/StudentSystem_QtGUI.dir/course.cpp.o: CMakeFiles/StudentSystem_QtGUI.dir/flags.make
-CMakeFiles/StudentSystem_QtGUI.dir/course.cpp.o: /Users/youssefwaelibrahim92gmail.com/Desktop/StudentSystem_QtGUI_VALIDATIONS/course.cpp
+CMakeFiles/StudentSystem_QtGUI.dir/course.cpp.o: /Users/youssefwaelibrahim92gmail.com/Desktop/cpp\ project/qtapp/course.cpp
 CMakeFiles/StudentSystem_QtGUI.dir/course.cpp.o: CMakeFiles/StudentSystem_QtGUI.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/youssefwaelibrahim92gmail.com/Desktop/StudentSystem_QtGUI_VALIDATIONS/build/Qt_6_11_0_for_macOS-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/StudentSystem_QtGUI.dir/course.cpp.o"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/StudentSystem_QtGUI.dir/course.cpp.o -MF CMakeFiles/StudentSystem_QtGUI.dir/course.cpp.o.d -o CMakeFiles/StudentSystem_QtGUI.dir/course.cpp.o -c /Users/youssefwaelibrahim92gmail.com/Desktop/StudentSystem_QtGUI_VALIDATIONS/course.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/youssefwaelibrahim92gmail.com/Desktop/cpp project/qtapp/build/Qt_6_11_0_for_macOS-Debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/StudentSystem_QtGUI.dir/course.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/StudentSystem_QtGUI.dir/course.cpp.o -MF CMakeFiles/StudentSystem_QtGUI.dir/course.cpp.o.d -o CMakeFiles/StudentSystem_QtGUI.dir/course.cpp.o -c "/Users/youssefwaelibrahim92gmail.com/Desktop/cpp project/qtapp/course.cpp"
 
 CMakeFiles/StudentSystem_QtGUI.dir/course.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/StudentSystem_QtGUI.dir/course.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/youssefwaelibrahim92gmail.com/Desktop/StudentSystem_QtGUI_VALIDATIONS/course.cpp > CMakeFiles/StudentSystem_QtGUI.dir/course.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/youssefwaelibrahim92gmail.com/Desktop/cpp project/qtapp/course.cpp" > CMakeFiles/StudentSystem_QtGUI.dir/course.cpp.i
 
 CMakeFiles/StudentSystem_QtGUI.dir/course.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/StudentSystem_QtGUI.dir/course.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/youssefwaelibrahim92gmail.com/Desktop/StudentSystem_QtGUI_VALIDATIONS/course.cpp -o CMakeFiles/StudentSystem_QtGUI.dir/course.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/youssefwaelibrahim92gmail.com/Desktop/cpp project/qtapp/course.cpp" -o CMakeFiles/StudentSystem_QtGUI.dir/course.cpp.s
 
 CMakeFiles/StudentSystem_QtGUI.dir/grades.cpp.o: CMakeFiles/StudentSystem_QtGUI.dir/flags.make
-CMakeFiles/StudentSystem_QtGUI.dir/grades.cpp.o: /Users/youssefwaelibrahim92gmail.com/Desktop/StudentSystem_QtGUI_VALIDATIONS/grades.cpp
+CMakeFiles/StudentSystem_QtGUI.dir/grades.cpp.o: /Users/youssefwaelibrahim92gmail.com/Desktop/cpp\ project/qtapp/grades.cpp
 CMakeFiles/StudentSystem_QtGUI.dir/grades.cpp.o: CMakeFiles/StudentSystem_QtGUI.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/youssefwaelibrahim92gmail.com/Desktop/StudentSystem_QtGUI_VALIDATIONS/build/Qt_6_11_0_for_macOS-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/StudentSystem_QtGUI.dir/grades.cpp.o"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/StudentSystem_QtGUI.dir/grades.cpp.o -MF CMakeFiles/StudentSystem_QtGUI.dir/grades.cpp.o.d -o CMakeFiles/StudentSystem_QtGUI.dir/grades.cpp.o -c /Users/youssefwaelibrahim92gmail.com/Desktop/StudentSystem_QtGUI_VALIDATIONS/grades.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/youssefwaelibrahim92gmail.com/Desktop/cpp project/qtapp/build/Qt_6_11_0_for_macOS-Debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/StudentSystem_QtGUI.dir/grades.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/StudentSystem_QtGUI.dir/grades.cpp.o -MF CMakeFiles/StudentSystem_QtGUI.dir/grades.cpp.o.d -o CMakeFiles/StudentSystem_QtGUI.dir/grades.cpp.o -c "/Users/youssefwaelibrahim92gmail.com/Desktop/cpp project/qtapp/grades.cpp"
 
 CMakeFiles/StudentSystem_QtGUI.dir/grades.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/StudentSystem_QtGUI.dir/grades.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/youssefwaelibrahim92gmail.com/Desktop/StudentSystem_QtGUI_VALIDATIONS/grades.cpp > CMakeFiles/StudentSystem_QtGUI.dir/grades.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/youssefwaelibrahim92gmail.com/Desktop/cpp project/qtapp/grades.cpp" > CMakeFiles/StudentSystem_QtGUI.dir/grades.cpp.i
 
 CMakeFiles/StudentSystem_QtGUI.dir/grades.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/StudentSystem_QtGUI.dir/grades.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/youssefwaelibrahim92gmail.com/Desktop/StudentSystem_QtGUI_VALIDATIONS/grades.cpp -o CMakeFiles/StudentSystem_QtGUI.dir/grades.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/youssefwaelibrahim92gmail.com/Desktop/cpp project/qtapp/grades.cpp" -o CMakeFiles/StudentSystem_QtGUI.dir/grades.cpp.s
 
 # Object files for target StudentSystem_QtGUI
 StudentSystem_QtGUI_OBJECTS = \
@@ -183,7 +183,7 @@ StudentSystem_QtGUI: /Users/youssefwaelibrahim92gmail.com/Qt/6.11.0/macos/lib/Qt
 StudentSystem_QtGUI: /Users/youssefwaelibrahim92gmail.com/Qt/6.11.0/macos/lib/QtGui.framework/Versions/A/QtGui
 StudentSystem_QtGUI: /Users/youssefwaelibrahim92gmail.com/Qt/6.11.0/macos/lib/QtCore.framework/Versions/A/QtCore
 StudentSystem_QtGUI: CMakeFiles/StudentSystem_QtGUI.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/youssefwaelibrahim92gmail.com/Desktop/StudentSystem_QtGUI_VALIDATIONS/build/Qt_6_11_0_for_macOS-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable StudentSystem_QtGUI"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/Users/youssefwaelibrahim92gmail.com/Desktop/cpp project/qtapp/build/Qt_6_11_0_for_macOS-Debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable StudentSystem_QtGUI"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/StudentSystem_QtGUI.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -195,6 +195,6 @@ CMakeFiles/StudentSystem_QtGUI.dir/clean:
 .PHONY : CMakeFiles/StudentSystem_QtGUI.dir/clean
 
 CMakeFiles/StudentSystem_QtGUI.dir/depend: StudentSystem_QtGUI_autogen/timestamp
-	cd /Users/youssefwaelibrahim92gmail.com/Desktop/StudentSystem_QtGUI_VALIDATIONS/build/Qt_6_11_0_for_macOS-Debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/youssefwaelibrahim92gmail.com/Desktop/StudentSystem_QtGUI_VALIDATIONS /Users/youssefwaelibrahim92gmail.com/Desktop/StudentSystem_QtGUI_VALIDATIONS /Users/youssefwaelibrahim92gmail.com/Desktop/StudentSystem_QtGUI_VALIDATIONS/build/Qt_6_11_0_for_macOS-Debug /Users/youssefwaelibrahim92gmail.com/Desktop/StudentSystem_QtGUI_VALIDATIONS/build/Qt_6_11_0_for_macOS-Debug /Users/youssefwaelibrahim92gmail.com/Desktop/StudentSystem_QtGUI_VALIDATIONS/build/Qt_6_11_0_for_macOS-Debug/CMakeFiles/StudentSystem_QtGUI.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd "/Users/youssefwaelibrahim92gmail.com/Desktop/cpp project/qtapp/build/Qt_6_11_0_for_macOS-Debug" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Users/youssefwaelibrahim92gmail.com/Desktop/cpp project/qtapp" "/Users/youssefwaelibrahim92gmail.com/Desktop/cpp project/qtapp" "/Users/youssefwaelibrahim92gmail.com/Desktop/cpp project/qtapp/build/Qt_6_11_0_for_macOS-Debug" "/Users/youssefwaelibrahim92gmail.com/Desktop/cpp project/qtapp/build/Qt_6_11_0_for_macOS-Debug" "/Users/youssefwaelibrahim92gmail.com/Desktop/cpp project/qtapp/build/Qt_6_11_0_for_macOS-Debug/CMakeFiles/StudentSystem_QtGUI.dir/DependInfo.cmake" "--color=$(COLOR)"
 .PHONY : CMakeFiles/StudentSystem_QtGUI.dir/depend
 

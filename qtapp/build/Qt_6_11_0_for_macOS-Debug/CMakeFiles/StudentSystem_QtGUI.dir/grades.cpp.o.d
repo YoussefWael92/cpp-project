@@ -1,7 +1,7 @@
 CMakeFiles/StudentSystem_QtGUI.dir/grades.cpp.o: \
-  /Users/youssefwaelibrahim92gmail.com/Desktop/StudentSystem_QtGUI_VALIDATIONS/grades.cpp \
-  /Users/youssefwaelibrahim92gmail.com/Desktop/StudentSystem_QtGUI_VALIDATIONS/grades.h \
-  /Users/youssefwaelibrahim92gmail.com/Desktop/StudentSystem_QtGUI_VALIDATIONS/globals.h \
+  /Users/youssefwaelibrahim92gmail.com/Desktop/cpp\ project/qtapp/grades.cpp \
+  /Users/youssefwaelibrahim92gmail.com/Desktop/cpp\ project/qtapp/grades.h \
+  /Users/youssefwaelibrahim92gmail.com/Desktop/cpp\ project/qtapp/globals.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/limits \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__config \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__config_site \
@@ -814,4 +814,4 @@ CMakeFiles/StudentSystem_QtGUI.dir/grades.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__filesystem/recursive_directory_iterator.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__filesystem/u8path.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/sstream \
-  /Users/youssefwaelibrahim92gmail.com/Desktop/StudentSystem_QtGUI_VALIDATIONS/student.h
+  /Users/youssefwaelibrahim92gmail.com/Desktop/cpp\ project/qtapp/student.h

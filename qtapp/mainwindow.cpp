@@ -537,7 +537,7 @@ void MainWindow::addStudent()
 
 void MainWindow::updateStudent()
 {
-    int index = selectedStudentIndex();
+    int isndex = selectedStudentIndex();
     if (index < 0) { QMessageBox::warning(this, "Select Student", "Select a student first."); return; }
     QString error;
     if (!studentFormIsValid(error)) { QMessageBox::warning(this, "Check Student", error); return; }

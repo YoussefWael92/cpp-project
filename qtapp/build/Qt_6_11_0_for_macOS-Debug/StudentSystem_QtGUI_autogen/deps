@@ -1,19 +1,19 @@
 StudentSystem_QtGUI_autogen/timestamp: \
-	/Users/youssefwaelibrahim92gmail.com/Desktop/StudentSystem_QtGUI_VALIDATIONS/CMakeLists.txt \
-	/Users/youssefwaelibrahim92gmail.com/Desktop/StudentSystem_QtGUI_VALIDATIONS/build/Qt_6_11_0_for_macOS-Debug/.qtcreator/cmake-helper/maintenance_tool_provider.cmake \
-	/Users/youssefwaelibrahim92gmail.com/Desktop/StudentSystem_QtGUI_VALIDATIONS/build/Qt_6_11_0_for_macOS-Debug/.qtcreator/cmake-helper/package-manager.cmake \
-	/Users/youssefwaelibrahim92gmail.com/Desktop/StudentSystem_QtGUI_VALIDATIONS/build/Qt_6_11_0_for_macOS-Debug/.qtcreator/cmake-helper/qtcreator-project.cmake \
-	/Users/youssefwaelibrahim92gmail.com/Desktop/StudentSystem_QtGUI_VALIDATIONS/build/Qt_6_11_0_for_macOS-Debug/CMakeFiles/3.30.5/CMakeCXXCompiler.cmake \
-	/Users/youssefwaelibrahim92gmail.com/Desktop/StudentSystem_QtGUI_VALIDATIONS/build/Qt_6_11_0_for_macOS-Debug/CMakeFiles/3.30.5/CMakeSystem.cmake \
-	/Users/youssefwaelibrahim92gmail.com/Desktop/StudentSystem_QtGUI_VALIDATIONS/course.cpp \
-	/Users/youssefwaelibrahim92gmail.com/Desktop/StudentSystem_QtGUI_VALIDATIONS/course.h \
-	/Users/youssefwaelibrahim92gmail.com/Desktop/StudentSystem_QtGUI_VALIDATIONS/grades.cpp \
-	/Users/youssefwaelibrahim92gmail.com/Desktop/StudentSystem_QtGUI_VALIDATIONS/grades.h \
-	/Users/youssefwaelibrahim92gmail.com/Desktop/StudentSystem_QtGUI_VALIDATIONS/main.cpp \
-	/Users/youssefwaelibrahim92gmail.com/Desktop/StudentSystem_QtGUI_VALIDATIONS/mainwindow.cpp \
-	/Users/youssefwaelibrahim92gmail.com/Desktop/StudentSystem_QtGUI_VALIDATIONS/mainwindow.h \
-	/Users/youssefwaelibrahim92gmail.com/Desktop/StudentSystem_QtGUI_VALIDATIONS/student.cpp \
-	/Users/youssefwaelibrahim92gmail.com/Desktop/StudentSystem_QtGUI_VALIDATIONS/student.h \
+	/Users/youssefwaelibrahim92gmail.com/Desktop/cpp\ project/qtapp/CMakeLists.txt \
+	/Users/youssefwaelibrahim92gmail.com/Desktop/cpp\ project/qtapp/build/Qt_6_11_0_for_macOS-Debug/.qtcreator/cmake-helper/maintenance_tool_provider.cmake \
+	/Users/youssefwaelibrahim92gmail.com/Desktop/cpp\ project/qtapp/build/Qt_6_11_0_for_macOS-Debug/.qtcreator/cmake-helper/package-manager.cmake \
+	/Users/youssefwaelibrahim92gmail.com/Desktop/cpp\ project/qtapp/build/Qt_6_11_0_for_macOS-Debug/.qtcreator/cmake-helper/qtcreator-project.cmake \
+	/Users/youssefwaelibrahim92gmail.com/Desktop/cpp\ project/qtapp/build/Qt_6_11_0_for_macOS-Debug/CMakeFiles/3.30.5/CMakeCXXCompiler.cmake \
+	/Users/youssefwaelibrahim92gmail.com/Desktop/cpp\ project/qtapp/build/Qt_6_11_0_for_macOS-Debug/CMakeFiles/3.30.5/CMakeSystem.cmake \
+	/Users/youssefwaelibrahim92gmail.com/Desktop/cpp\ project/qtapp/course.cpp \
+	/Users/youssefwaelibrahim92gmail.com/Desktop/cpp\ project/qtapp/course.h \
+	/Users/youssefwaelibrahim92gmail.com/Desktop/cpp\ project/qtapp/grades.cpp \
+	/Users/youssefwaelibrahim92gmail.com/Desktop/cpp\ project/qtapp/grades.h \
+	/Users/youssefwaelibrahim92gmail.com/Desktop/cpp\ project/qtapp/main.cpp \
+	/Users/youssefwaelibrahim92gmail.com/Desktop/cpp\ project/qtapp/mainwindow.cpp \
+	/Users/youssefwaelibrahim92gmail.com/Desktop/cpp\ project/qtapp/mainwindow.h \
+	/Users/youssefwaelibrahim92gmail.com/Desktop/cpp\ project/qtapp/student.cpp \
+	/Users/youssefwaelibrahim92gmail.com/Desktop/cpp\ project/qtapp/student.h \
 	/Users/youssefwaelibrahim92gmail.com/Qt/6.11.0/macos/lib/cmake/Qt6/FindWrapAtomic.cmake \
 	/Users/youssefwaelibrahim92gmail.com/Qt/6.11.0/macos/lib/cmake/Qt6/FindWrapOpenGL.cmake \
 	/Users/youssefwaelibrahim92gmail.com/Qt/6.11.0/macos/lib/cmake/Qt6/Qt6Config.cmake \

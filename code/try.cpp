@@ -19,6 +19,7 @@ void studentManagement();
 void courseManagement();
 void gradesManagement();
 
+//*********************STRUCTURES******************
 
 struct Student
 {
@@ -30,7 +31,7 @@ struct Student
     string program;
     int level;
     float GPA;
-    int ID;
+    string ID;
 
     string registeredCourses[10];
     int registeredCourseCount;
@@ -53,7 +54,7 @@ int courseCount = 0;
 
 struct Grade
 {
-    int studentID;
+    string studentID;
     string courseCode;
     float midterm;
     float finalExam;
@@ -65,6 +66,31 @@ struct Grade
 Grade grades[5000];
 int gradeCount = 0;
 
+//************************************VALIDATIONS FUNCTIONS*************************
+
+bool isValidCourseCode(string code)
+{
+    if (code.length() != 6)
+        return false;
+
+    for (int i = 0; i < 3; i++)
+    {
+        if (code[i] < 'A' || code[i] > 'Z')
+        {
+            return false;
+        }
+    }
+
+    for (int i = 3; i < 6; i++)
+    {
+        if (code[i] < '0' || code[i] > '9')
+        {
+            return false;
+        }
+    }
+
+    return true;
+}
 
 bool isValid(char DOB[])
 {
@@ -87,6 +113,29 @@ bool isValid(char DOB[])
         DOB[9] >= '0' && DOB[9] <= '9');
 }
 
+bool isValidStudentID(string id)
+{
+    if (id.length() != 7)
+        return false;
+
+    if (!(id[0] >= '0' && id[0] <= '9'))
+        return false;
+
+    if (!(id[1] >= '0' && id[1] <= '9'))
+        return false;
+
+    if (id[2] != 'P')
+        return false;
+
+    for (int i = 3; i < 7; i++)
+    {
+        if (!(id[i] >= '0' && id[i] <= '9'))
+            return false;
+    }
+
+    return true;
+}
+//*************************************FILE FUNCTIONS***************************
 string cleanExcelText(string value)
 {
     if (value.length() >= 4 &&
@@ -170,8 +219,7 @@ void loadFromFile(Student students[], int& studentCount)
         s.GPA = stof(temp);
 
         getline(ss, temp, ',');
-        s.ID = stoi(temp);
-
+        s.ID = temp;
         s.registeredCourseCount = 0;
 
         if (getline(ss, temp, ','))
@@ -207,7 +255,7 @@ void loadFromFile(Student students[], int& studentCount)
 void PrintStudentBox(const Student& s)
 {
     cout << "_____________________________________________________" << endl;
-    cout << "|" << left << setw(50) << ("Student ID: " + to_string(s.ID)) << "\n";
+    cout << "|" << left << setw(50) << ("Student ID: " + s.ID) << "\n";
     cout << "|" << left << setw(50) << ("Name: " + s.name) << "\n";
     cout << "|" << left << setw(50) << ("National ID: " + s.nationalID) << "\n";
 
@@ -242,7 +290,7 @@ void PrintStudentBox(const Student& s)
     cout << "_____________________________________________________" << endl;
 }
 
-
+//**************************************************ADD NEW STUDENT**************************************************
 void Newstudent(Student students[], int& studentCount)
 {
     if (studentCount >= 1200)
@@ -305,7 +353,7 @@ void Newstudent(Student students[], int& studentCount)
     {
         unique = true;
 
-        if (newStudent.nationalID.length() != 14 || newStudent.nationalID[0] == '0')
+        while (newStudent.nationalID.length() != 14 || newStudent.nationalID[0] == '0')
         {
             cout << "Invalid input. Enter 14 digits only with no leading zeros: ";
             getline(cin, newStudent.nationalID);
@@ -411,12 +459,23 @@ void Newstudent(Student students[], int& studentCount)
     newStudent.GPA = 0.0;
     newStudent.registeredCourseCount = 0;
 
-    int idfcode = currentYear - 2000;
+    string yearPart = to_string(currentYear % 100);
 
-    if (studentCount == 0)
-        newStudent.ID = idfcode * 10000 + 1;
-    else
-        newStudent.ID = students[studentCount - 1].ID + 1;
+    if (yearPart.length() == 1)
+    {
+        yearPart = "0" + yearPart;
+    }
+
+    int serial = studentCount + 1;
+
+    string serialPart = to_string(serial);
+
+    while (serialPart.length() < 4)
+    {
+        serialPart = "0" + serialPart;
+    }
+
+    newStudent.ID = yearPart + "P" + serialPart;
 
     students[studentCount] = newStudent;
     studentCount++;
@@ -429,13 +488,14 @@ void Newstudent(Student students[], int& studentCount)
     MainMenu();
 }
 
+//***********************************************************LIST STUDENT***************************************
 
 void ListAllStudents(Student students[], int studentCount)
 {
     if (studentCount == 0)
     {
         cout << "No students found.\n";
-        return;
+        studentManagement();
     }
 
     int choice;
@@ -508,6 +568,8 @@ void ListAllStudents(Student students[], int studentCount)
     MainMenu();
 }
 
+//***************************************SEARCH STUDENT**********************************//
+
 
 void SearchStudents(Student students[], int studentCount)
 {
@@ -525,7 +587,7 @@ void SearchStudents(Student students[], int studentCount)
     {
     case 1:
     {
-        int id;
+        string id;
 
         while (true)
         {
@@ -540,9 +602,9 @@ void SearchStudents(Student students[], int studentCount)
                 continue;
             }
 
-            if (id < 100000 || id > 999999)
+            if (!isValidStudentID(id))
             {
-                cout << "Invalid ID (must be 6 digits)\n";
+                cout << "Invalid ID format. Example: 26P0001\n";
                 continue;
             }
 
@@ -708,10 +770,12 @@ void SearchStudents(Student students[], int studentCount)
     MainMenu();
 }
 
+//**************************************UPDATE STUDENT***************************//
+
 
 void updatestudent()
 {
-    int id;
+    string id;
 
     cout << "\n=== Student update ===\n";
     cout << "Enter Student ID to be updated: ";
@@ -814,20 +878,17 @@ void updatestudent()
     MainMenu();
 }
 
+//****************************************DELETE STUDENT**************************//
+
 
 void deleteStudent()
 {
-    int id;
+    string id;
 
     cout << "\n=== Delete Student ===\n";
     cout << "Enter Student ID to delete: ";
     cin >> id;
 
-    if (id <= 0)
-    {
-        cout << "ERROR: Invalid Student ID format\n";
-        return;
-    }
 
     int index = -1;
 
@@ -843,8 +904,9 @@ void deleteStudent()
 
     if (index == -1)
     {
+
         cout << "No student exists with ID: " << id << "\n";
-        MainMenu();
+        deleteStudent();
         return;
     }
 
@@ -878,6 +940,8 @@ void deleteStudent()
 
     MainMenu();
 }
+
+//********************************************STUDENT MANAGEMENT MENU******************************//
 
 
 void studentManagement()
@@ -967,6 +1031,8 @@ void loadCoursesFromFile()
 
     file.close();
 }
+
+//*************************************ADD NEW COURSE******************************//
 
 
 void addNewCourse()
@@ -1062,6 +1128,8 @@ void addNewCourse()
     MainMenu();
 }
 
+//*******************************************VIEW ALL COURSES*************************//
+
 
 void viewAllCourses()
 {
@@ -1093,6 +1161,8 @@ void viewAllCourses()
 
     MainMenu();
 }
+
+//*******************************************UPDATE COURSES********************************//
 
 
 void updateCourse()
@@ -1190,6 +1260,8 @@ void updateCourse()
     MainMenu();
 }
 
+//**********************************DELETE COURSES***************************************//
+
 
 void deleteCourse()
 {
@@ -1251,10 +1323,12 @@ void deleteCourse()
     MainMenu();
 }
 
+//********************************REGISTER STUDENT TO COURSE***************************//
+
 
 void registerCourseToStudent()
 {
-    int studentID;
+    string studentID;
     string courseCode;
 
     cout << "\nEnter Student ID: ";
@@ -1274,7 +1348,7 @@ void registerCourseToStudent()
     if (studentIndex == -1)
     {
         cout << "Student not found.\n";
-        MainMenu();
+        registerCourseToStudent();
         return;
     }
 
@@ -1330,29 +1404,11 @@ void registerCourseToStudent()
     MainMenu();
 }
 
-bool isValidCourseCode(string code)
-{
-    if (code.length() != 6)
-        return false;
 
-    for (int i = 0; i < 3; i++)
-    {
-        if (code[i] < 'A' || code[i] > 'Z')
-        {
-            return false;
-        }
-    }
 
-    for (int i = 3; i < 6; i++)
-    {
-        if (code[i] < '0' || code[i] > '9')
-        {
-            return false;
-        }
-    }
+//**************************************COURSE MANAGEMENT MENU***************************//
 
-    return true;
-}
+
 void courseManagement()
 {
     int choice;
@@ -1400,7 +1456,7 @@ void courseManagement()
     }
 }
 
-
+// **************************************GRADES FILE********************************
 void saveGradesToFile()
 {
     ofstream file("grades.csv");
@@ -1429,7 +1485,7 @@ void loadGradesFromFile()
 
     Grade g;
 
-    while (file >> g.studentID)
+    while (getline(file, g.studentID, ','))
     {
         file.ignore();
 
@@ -1461,6 +1517,9 @@ void loadGradesFromFile()
 }
 
 
+//******************************GRADES LETTER*********************//
+
+
 char getLetterGrade(float total)
 {
     if (total >= 90)
@@ -1475,6 +1534,9 @@ char getLetterGrade(float total)
         return 'F';
 }
 
+//***************************************GRADES POINT**************************//
+
+
 float getGradePoints(char grade)
 {
     if (grade == 'A')
@@ -1488,6 +1550,8 @@ float getGradePoints(char grade)
     else
         return 0.0;
 }
+
+//*************************************ENTER GRADES***************************//
 
 
 void enterStudentGrades()
@@ -1601,10 +1665,12 @@ void enterStudentGrades()
     MainMenu();
 }
 
+//*******************************************VIEW STUDENTS GRADES******************************//
+
 
 void viewStudentGrades()
 {
-    int id;
+    string id;
 
     cout << "\nEnter Student ID: ";
     cin >> id;
@@ -1647,10 +1713,12 @@ void viewStudentGrades()
     MainMenu();
 }
 
+//***************************************CALCULATE GPA******************************//
+
 
 void calculateGPA()
 {
-    int id;
+    string id;
 
     cout << "\nEnter Student ID: ";
     cin >> id;
@@ -1699,10 +1767,12 @@ void calculateGPA()
     MainMenu();
 }
 
+//*****************************************GENERATE TRANSCRIPT***********************************//
+
 
 void generateTranscript()
 {
-    int id;
+    string id;
 
     cout << "\nEnter Student ID: ";
     cin >> id;
@@ -1780,6 +1850,8 @@ void generateTranscript()
     MainMenu();
 }
 
+//******************************************GRADES MANAGEMENT MENU***************************//
+
 
 void gradesManagement()
 {
@@ -1822,6 +1894,8 @@ void gradesManagement()
         break;
     }
 }
+
+//*********************************************MAIN MENU**************************//
 
 
 int MainMenu()

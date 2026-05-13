@@ -1,7 +1,7 @@
 CMakeFiles/StudentSystem_QtGUI.dir/student.cpp.o: \
-  /Users/youssefwaelibrahim92gmail.com/Desktop/StudentSystem_QtGUI_VALIDATIONS/student.cpp \
-  /Users/youssefwaelibrahim92gmail.com/Desktop/StudentSystem_QtGUI_VALIDATIONS/student.h \
-  /Users/youssefwaelibrahim92gmail.com/Desktop/StudentSystem_QtGUI_VALIDATIONS/globals.h \
+  /Users/youssefwaelibrahim92gmail.com/Desktop/cpp\ project/qtapp/student.cpp \
+  /Users/youssefwaelibrahim92gmail.com/Desktop/cpp\ project/qtapp/student.h \
+  /Users/youssefwaelibrahim92gmail.com/Desktop/cpp\ project/qtapp/globals.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/limits \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__config \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__config_site \

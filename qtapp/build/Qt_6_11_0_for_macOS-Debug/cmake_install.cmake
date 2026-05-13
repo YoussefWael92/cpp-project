@@ -1,4 +1,4 @@
-# Install script for directory: /Users/youssefwaelibrahim92gmail.com/Desktop/StudentSystem_QtGUI_VALIDATIONS
+# Install script for directory: /Users/youssefwaelibrahim92gmail.com/Desktop/cpp project/qtapp
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -52,6 +52,6 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-  file(WRITE "/Users/youssefwaelibrahim92gmail.com/Desktop/StudentSystem_QtGUI_VALIDATIONS/build/Qt_6_11_0_for_macOS-Debug/${CMAKE_INSTALL_MANIFEST}"
+  file(WRITE "/Users/youssefwaelibrahim92gmail.com/Desktop/cpp project/qtapp/build/Qt_6_11_0_for_macOS-Debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()
