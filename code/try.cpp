@@ -705,7 +705,7 @@ void SearchStudents(Student students[], int studentCount)
         }
         else
         {
-            cout << "\nFound " << count << " student(s):\n";
+            cout << "\nFound" << count << " student(s):\n";
 
             for (int i = 0; i < studentCount; i++)
             {
